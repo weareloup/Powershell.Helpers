@@ -4,19 +4,20 @@ Download these to a location (e.g. C:\_powershell)
 
 Edit the file located at $profile and add the command below
 
-`Get-ChildItem "C:\_powershell\*" | Import-Module`
+`Get-ChildItem "C:\_powershell\*.psm1" | Import-Module`
 
 To reload your profile use the command `&$profile`
 
 Ensure that the environment variable CHECKOUT_DIR is set as a machine wide variable.
 
+Ensure that you run PowerShell in admin mode for these to take effect.
 
-*Git Helper functions*
+# Git Helper functions
 
 - CreateBugBranch, CreateFeatureBranch - creates a bug/feature branch with the right prefix 
 - Prune-LocalBranches (aka prune) - will remove all local branches
 
 
-*Navigate*
+# Navigate
 
 - Command created to navigate to checked out repo
