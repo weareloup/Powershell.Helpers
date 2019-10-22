@@ -1,14 +1,11 @@
 # Powershell.Helpers
 
-Download these to a location (e.g. C:\_powershell)
+- Download these to a location (e.g. C:\_powershell)
 
-Edit the file located at $profile and add the command below
+- Edit the file located at $profile and add the command `Get-ChildItem "C:\_powershell\*.psm1" | Import-Module`
 
-`Get-ChildItem "C:\_powershell\*.psm1" | Import-Module`
+- To reload your profile use the command `&$profile`
 
-To reload your profile use the command `&$profile`
-
-Ensure that the environment variable CHECKOUT_DIR is set as a machine wide variable.
 
 Ensure that you run PowerShell in admin mode for these to take effect.
 
@@ -20,4 +17,6 @@ Ensure that you run PowerShell in admin mode for these to take effect.
 
 # Navigate
 
-- Command created to navigate to checked out repo
+- Ensure that the environment variable CHECKOUT_DIR is set as a machine wide variable
+- Commands created to navigate to checked out repo
+- e.g. monolith - change directory to monolith repo
