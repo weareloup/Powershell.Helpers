@@ -12,7 +12,7 @@ Ensure that you run PowerShell in admin mode for these to take effect.
 # Git Helper functions
 
 - CreateBugBranch, CreateFeatureBranch - creates a bug/feature branch with the right prefix 
-- Prune-LocalBranches (aka prune) - will remove all local branches
+- Prune-LocalBranches (aka prune) - will remove all local branches that don't exist on remote
 
 
 # Navigate
